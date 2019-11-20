@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
-  margin:0
-  padding:0
+  margin:0;
+  padding:0;
 }
 body {
   background-color: green;
@@ -25,21 +25,39 @@ header{
   clear: both;
 }
 /* navbar */
+nav{
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+nav:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .navbar-left{
   float: left;
 }
 .navbar-right{
   float: right;
 }
+/* lista */
 .lista{
   text-decoration: none;
   list-style: none;
   text-align: center;
   color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+
 }
 .lista li{
-  display: inline;
+  display: inline-block;
 }
 .lista li a{
   color: white;
+  padding-right: 8px;
+}
+.logo{
+padding-right: 16px;
 }
