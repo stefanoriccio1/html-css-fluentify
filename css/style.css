@@ -8,8 +8,10 @@ body {
 }
 header{
   background-image: url(../img/oldman.png);
-  background-size: cover;
-  height: 500px;
+  background-size: 60%;
+  background-position: 110% 110%;
+  background-repeat: no-repeat;
+  height: 450px;
 }
 /* container */
 .container {
@@ -49,7 +51,6 @@ nav:after{
   color: white;
   text-transform: uppercase;
   font-size: 13px;
-
 }
 .lista li{
   display: inline-block;
@@ -59,5 +60,16 @@ nav:after{
   padding-right: 8px;
 }
 .logo{
+vertical-align: middle;
 padding-right: 16px;
+}
+/* header-bottom */
+.header-bottom{
+  position: relative;
+}
+.bannerone{
+position: absolute;
+top: 50%;
+left: 0;
+margin: auto;
 }
