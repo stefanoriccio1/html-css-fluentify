@@ -3,3 +3,38 @@
   margin:0
   padding:0
 }
+body {
+  position: relative;
+  background-color: green;
+}
+/* container */
+.container {
+ background-color: blue;
+ text-align: center;
+}
+/* header top */
+.header-top:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-left{
+  float: left;
+}
+.navbar-right{
+  float: right;
+}
+
+/* navbar */
+.lista{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+.lista li{
+  display: inline;
+}
+.lista li a{
+  color: white;
+}
