@@ -4,7 +4,7 @@
   padding:0;
 }
 body {
-  background-color: green;
+  background-color: #0D325A;
 }
 header{
   background-image: url(../img/oldman.png);
@@ -13,10 +13,19 @@ header{
   background-repeat: no-repeat;
   height: 450px;
 }
+.button{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: lightgreen;
+  padding: 8px;
+}
 /* container */
 .container {
  width: 85%;
- background-color: blue;
  text-align: center;
  margin: auto;
 }
@@ -28,8 +37,8 @@ header{
 }
 /* navbar */
 nav{
-  height: 45px;
-  line-height: 45px;
+  height: 80px;
+  line-height: 80px;
   text-align: center;
 }
 nav:after{
@@ -45,7 +54,6 @@ nav:after{
 }
 /* lista */
 .lista{
-  text-decoration: none;
   list-style: none;
   text-align: center;
   color: white;
@@ -58,18 +66,30 @@ nav:after{
 .lista li a{
   color: white;
   padding-right: 8px;
+  text-decoration: none;
 }
 .logo{
 vertical-align: middle;
 padding-right: 16px;
 }
+
 /* header-bottom */
 .header-bottom{
-  position: relative;
 }
 .bannerone{
-position: absolute;
-top: 50%;
-left: 0;
-margin: auto;
+position: relative;
+height: 370px;
+width: 27%;
+margin: 0;
+text-align: left;
+}
+.testo-bannerone{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: white;
+}
+.testo-bannerone h1{
+  margin-bottom: 30px;
 }
